@@ -1,0 +1,3 @@
+# React 19 useEffect Hook: Incorrect Functional Update
+
+This example demonstrates a common error in React 19 when using the `useEffect` hook with a functional update to modify state.  The provided code attempts to increment the state, but it may not work as intended due to an incorrect usage of the `prevCount` parameter within the `setCount` function. This can cause unexpected behavior in the component's rendering, particularly with concurrent mode enabled in newer React versions.
